@@ -1,3 +1,8 @@
-Eduardo Pavez, Benjamin Girault, Antonio Ortega, and Philip A. Chou. 
-Region adaptive graph Fouriertransform  for  3D  point  clouds.   
-In 2020  IEEE  International  Conference  on  Image  Processing  (ICIP).IEEE, 2020
+Implementation of the region adaptive graph fourier transform (RA-GFT) from [1].
+
+
+
+
+
+
+[1] E. Pavez, B. Girault, A. Ortega, and P. A. Chou. Region adaptive graph Fourier transform  for  3D  point  clouds. IEEE  International  Conference  on  Image  Processing  (ICIP), 2020
