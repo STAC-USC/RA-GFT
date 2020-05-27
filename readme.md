@@ -17,5 +17,4 @@ Implementation of the region adaptive graph fourier transform (RA-GFT) from [1].
   year={2020},
   organization={IEEE}
 }
-}
 ```
