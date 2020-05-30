@@ -34,8 +34,9 @@ toc;
 
 Crgb_rec = double(YUVtoRGB(Crec));
 
-psnr_Y = -10*log10(norm(Y - Coeff_quant(:,1))^2/(N*255^2))
+psnr_Y = -10*log10(norm(Y - Coeff_quant(:,1))^2/(N*255^2));
 
-% ply_write('PC_original.ply',V,Crgb,[]);
-% ply_write('PC_coded.ply',V,Crgb_rec,[]);
+%%
+ ply_write('PC_original.ply',V,Crgb,[]);
+ ply_write('PC_coded.ply',V,Crgb_rec,[]);
 

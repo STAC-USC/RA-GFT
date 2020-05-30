@@ -144,8 +144,8 @@ end
 end
 function [A] = invert_block_coeffs(Vblock,Ahat,Q,bsize)
 
-%[W,~] = compute_graph_MSR(Vblock);
-[W,~] = compute_graph_gaussian(Vblock);
+[W,~] = compute_graph_MSR(Vblock);
+%[W,~] = compute_graph_gaussian(Vblock);
 
 if (bsize == 2)
     %do standard RA-GFT with a connected graph

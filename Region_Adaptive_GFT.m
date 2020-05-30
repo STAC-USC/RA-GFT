@@ -134,8 +134,8 @@ function [Ahat, Gfreq,weights] = block_coeffs(Vblock,A,Q,bsize)
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
 
-%[W,~] = compute_graph_MSR(Vblock);
-[W,~] = compute_graph_gaussian(Vblock);
+[W,~] = compute_graph_MSR(Vblock);
+%[W,~] = compute_graph_gaussian(Vblock);
 if(sum(isnan(W),'all'))
           disp(['nana']);  
 end
