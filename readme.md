@@ -8,6 +8,7 @@ It takes as input a voxelized point cloud in morton order, the 8iVFBv2 and MVUB 
 
 
 [1] E. Pavez, B. Girault, A. Ortega, and P. A. Chou. Region adaptive graph Fourier transform  for  3D  point  clouds. IEEE  International  Conference  on  Image  Processing  (ICIP), 2020
+https://arxiv.org/abs/2003.01866
 
 
 ## Citing this work
