@@ -13,12 +13,12 @@ iD = D.^(-1);
 iD(find(D==0))   =0;
 W=iD' + iD;
 
-A = spones(W);
-
-nnz_distances = 1./nonzeros(W);
-sigma = sqrt(mean(nnz_distances.^2)/3);
-
-W = A.*exp(-0.5*D.^2/sigma^2);
-Deginv = diag(1./sum(W));
-W = Deginv*W*Deginv;
+% A = spones(W);
+% 
+% nnz_distances = 1./nonzeros(W);
+% sigma = sqrt(mean(nnz_distances.^2)/3);
+% 
+% W = A.*exp(-0.5*D.^2/sigma^2);
+% Deginv = diag(1./sum(W));
+% W = Deginv*W*Deginv;
 end
