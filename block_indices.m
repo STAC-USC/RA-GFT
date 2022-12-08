@@ -1,7 +1,3 @@
-%CONFIDENTIAL (C) Mitsubishi Electric Research Labs (MERL) 2017 Eduardo
-%Pavez 08/17/2017
-
-
 
 function [indices]=block_indices(V,bsize)
 %V is Nx3, a point cloud, each row are the xyz coordinates of a point, 
